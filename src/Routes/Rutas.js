@@ -3,10 +3,11 @@ import {Home} from '../Home/Home.js';
 import { Menu } from "../Menu/Menu.js";
 export function Rutas(){
     return (
-        <div className="App">
-          
+        <div >
+            <Menu/>
+            
           <Routes>
-          <Menu/>
+        
             <Route path="/" element={<Home />} />
             
           </Routes>
